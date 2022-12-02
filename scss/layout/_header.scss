@@ -4,10 +4,10 @@ header {
   position: sticky;
   top: 0;
   z-index: 999;
-
 }
 
 #navbar {
+  box-shadow: 0 0 5px 0 grey;
 
   overflow: hidden;
   background-color: white;
@@ -28,7 +28,7 @@ header {
   display: none;
   border-radius: 50%;
   display: flex;
-  svg{
+  svg {
     width: 34px;
     height: 34px;
   }

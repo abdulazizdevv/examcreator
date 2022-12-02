@@ -91,11 +91,7 @@
     width: 80%;
     margin: 0 auto;
   }
-  .icons {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .icons .images {
+  .heros {
     width: 90%;
     margin: 0 auto;
   }
@@ -649,6 +645,7 @@ img {
 }
 
 footer {
+  margin-top: 130px;
   background-color: black;
   color: white;
 }
@@ -723,6 +720,8 @@ header {
 }
 
 #navbar {
+  -webkit-box-shadow: 0 0 5px 0 grey;
+          box-shadow: 0 0 5px 0 grey;
   overflow: hidden;
   background-color: white;
   padding: 40px 20px;

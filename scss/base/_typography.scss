@@ -191,14 +191,11 @@ img {
 // section5
 .heros {
   display: flex;
-  //   flex-wrap: wrap;
   gap: 55px;
   justify-content: space-between;
 }
 
 .icons {
-  // display: flex;
-  // flex-wrap: wrap;
   margin-top: 100px;
   width: 100%;
   .education {
