@@ -1,0 +1,36 @@
+.btn {
+  cursor: pointer;
+  margin-top: 38px;
+  background-color: var(--color-txt);
+  color: white;
+  width: 149.14px;
+  height: 58px;
+}
+.right {
+  color: var(--color-txt);
+  margin-left: 40px;
+  text-decoration: none;
+  &:hover {
+    img {
+      transition: 1s;
+      transform: translateX(10px);
+    }
+  }
+  img {
+    margin-left: 15px;
+  }
+}
+.rights {
+  margin-left: 15px;
+  color: var(--color-txt);
+  text-decoration: none;
+  &:hover {
+    img {
+      transition: 1s;
+      transform: translateX(10px);
+    }
+  }
+  img {
+    margin-left: 15px;
+  }
+}

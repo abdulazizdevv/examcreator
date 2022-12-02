@@ -1,0 +1,112 @@
+// CAROUSEL 2 SECTION 4
+
+.four {
+  flex-wrap: wrap;
+  margin-top: 100px;
+  justify-content: space-between;
+  display: flex;
+  .product {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--color-org-txt);
+  }
+  .design {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+  }
+  .over {
+    max-width: 617px;
+    color: var(--text-page);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+// carousel 2
+
+img {
+  vertical-align: middle;
+}
+
+.carousel2 {
+  margin-top: 30px;
+  position: relative;
+}
+
+.slidex2 {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.lefts,
+.rights1 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.lefts:hover,
+.rights1:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.zero,
+.demo:hover {
+  opacity: 1;
+}
+
+
