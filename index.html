@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
     <header>
         <div class="backtop">
             <a href="#">
@@ -24,27 +27,28 @@
             <nav id="navbar">
                 <div class="nav">
                     <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                    <ul class="nav__list">
+                        <li class="nav__list__link"><a href="#">Home</a></li>
+                        <li class="nav__list__link"><a href="#service">Services</a></li>
+                        <li class="nav__list__link"><a href="#project">Projects</a></li>
+                        <li class="nav__list__link"><a href="#experience">Experience</a></li>
+                        <li class="nav__list__link"><a href="#about">About</a></li>
+                        <li class="nav__list__link"><a href="#test">Testmonial</a></li>
+                        
+                    </ul>
+
                     <a href="#" class="bar toggle"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
                             <path
                                 d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
                         </svg></a>
-                    <ul class="nav__list">
-                        <li class="nav__list__link"><a href="#">Home</a></li>
-                        <li class="nav__list__link"><a href="#">Services</a></li>
-                        <li class="nav__list__link"><a href="#">Projects</a></li>
-                        <li class="nav__list__link"><a href="#">Experience</a></li>
-                        <li class="nav__list__link"><a href="#">About</a></li>
-                        <li class="nav__list__link"><a href="#">Testmonial</a></li>
-
-                    </ul>
                     <ul class="sidebar close ">
                         <li class="sidebar-list"><a href="#">Home</a></li>
-                        <li class="sidebar-list"><a href="#">Services</a></li>
-                        <li class="sidebar-list"><a href="#">Projects</a></li>
-                        <li class="sidebar-list"><a href="#">Experience</a></li>
-                        <li class="sidebar-list"><a href="#">About</a></li>
-                        <li class="sidebar-list"><a href="#">Testmonial</a></li>
+                        <li class="sidebar-list"><a href="#service">Services</a></li>
+                        <li class="sidebar-list"><a href="#project">Projects</a></li>
+                        <li class="sidebar-list"><a href="#experience">Experience</a></li>
+                        <li class="sidebar-list"><a href="#about">About</a></li>
+                        <li class="sidebar-list"><a href="#test">Testmonial</a></li>
                     </ul>
                 </div>
             </nav>
@@ -69,9 +73,9 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <div class="second">
+        <section >
+            <div class="container" id="service">
+                <div class="second" >
                     <h2 class="text-center  org">Services</h2>
                     <h2 class="text-center two-txt second-txt">Design that solves problems, one product at a time.</h2>
                 </div>
@@ -112,7 +116,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="project">
             <div class="container">
                 <div class="portfolios">
                     <div>
@@ -170,7 +174,7 @@
 
         <!-- CAROUSEL SECTION -->
 
-        <section>
+        <section id="about">
             <div class="container">
                 <div class="four">
                     <div>
@@ -248,7 +252,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="experience">
             <div class="container ">
                 <div class="heros">
                     <div class="icons">
@@ -340,7 +344,7 @@
 
         <!-- carousel3 -->
 
-        <section>
+        <section id="test">
             <div class="container">
                 <h2 class="test">Testimonials</h2>
                 <h2 class="word">Word on the street</h2>
@@ -480,6 +484,7 @@
 
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="./js/index.js"></script>
 </body>

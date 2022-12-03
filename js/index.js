@@ -139,17 +139,7 @@ window.addEventListener("scroll", (event) => {
   return event;
 });
 
-
 // barrs
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
 }, 2000);
-
-
-var loader = document.querySelector(".loader");
-
-window.addEventListener("load", vanish);
-
-function vanish() {
-  loader.classList.add("dissapear");
-}
